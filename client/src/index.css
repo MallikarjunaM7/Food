@@ -1,0 +1,404 @@
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+} */ 
+#body{
+  width: 100%;
+}
+
+.welcomeflex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.welcomeflex div{
+  width: 50%;
+  & *{
+    text-wrap: balance;
+  }
+}
+
+.imgwel{
+  width: 100%;
+  height: 100%
+}
+
+.welcomecontent{
+  margin-left: 30px;
+}
+/* .mode{
+  background-color: black;
+} */
+
+.verifying{
+  display: block;
+}
+
+/* .navbar{
+  background-color: #19715C !important;
+} */
+
+hr{
+  width: 100%;
+}
+
+.navbar-brand{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 45px;
+  margin-top: 20px;
+}
+
+.collapse{
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.collapse ul li{
+  padding: 30px;
+  font-size: 21px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
+
+*{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+
+
+.login a{
+  text-decoration: none;
+  color: white;
+}
+
+.register a{
+  text-decoration: none;
+  color: black;
+}
+
+.form-signin{
+  display: flex;
+  justify-content: space-around;
+}
+.border{
+  border: 2px solid black;
+}
+
+.login-text{
+  display: flex;
+  align-items: center;
+  text-wrap: balance;
+}
+
+.center-login{
+  display: flex;
+  justify-content: center;
+}
+
+*{
+  text-wrap: balance;
+}
+
+.register:hover{
+  a{
+    color: white;
+  }
+}
+
+input::placeholder{
+  color: aliceblue;
+}
+
+
+.responabout{
+  padding-bottom: 16px;
+}
+
+
+.verifying{
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userdetails{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.usermaindetails{
+  margin-left: -50px;
+}
+
+.userdetails input{
+  width:auto;
+}
+
+.userdetailimg{
+  margin-top: 35px;
+  & img{
+    border-radius: 20px;
+    border: 3px solid black;
+  }
+}
+
+input{
+  border: 2px solid black !important;
+}
+
+.inbuildusername{
+  margin-left: 86px;
+}
+
+.inbuildemail{
+  margin-left: 125px;
+}
+
+.phone{
+  margin-left: 105px;
+}
+
+.local{
+  margin-left: 103px !important;
+  width:86% !important; 
+}
+
+.area{
+  margin-left: 132px;
+  width:86% !important; 
+}
+
+.city{
+  margin-left: 139px !important;
+}
+
+.fillhead{
+    margin-bottom: 40px !important;
+} 
+
+
+.mode{
+    padding-left: 15px !important;
+    padding-bottom: 0px !important;
+    padding-top: 40px !important;
+
+}
+
+#body{
+  background-image: url("/harli-marten-n7a2OJDSZns-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media screen and (max-width: 592px){
+
+  .userdetails{
+    display: block;
+  }
+
+
+  .usermaindetails{
+    margin-left: 0px !important;
+  }
+
+  .collapse{
+    margin-left: 0;
+  }
+
+  .nav-item{
+    padding: 0 !important
+  }
+
+  .responabout{
+    margin-bottom: 35px !important;
+  }
+
+  .col{
+    margin-top: 20px;
+  }
+
+  .intro{
+    margin-bottom: 50px;
+  }
+
+  .form-signin{
+    display: block;
+  }
+
+  .form-signin *{
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+
+  .emailinput{
+    width: 50% !important;
+    margin-left: -220px !important;
+  }
+
+  .passinput{
+    width: 50% !important;
+    margin-left: -220px !important;
+  }
+
+  .loginbtn{
+    width: 50% !important;
+    margin-left: 50px;
+  }
+
+  .loginhead{
+    padding-bottom: 40px !important;
+  }
+
+  .userinput{
+    width: 50% !important;
+    margin-left: -220px !important;
+  }
+
+  .verifying{
+    height: 450px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sr-only{
+    margin-left: -25px;
+  }
+
+  input{
+    width: 60% !important;
+  }
+
+  .inbuildusername{
+    margin-left: 29px;
+  }
+
+  .inbuildemail{
+    margin-left: 69px !important;
+  }
+
+  .phone{
+    margin-left: 47px !important;
+  }
+
+  .local{
+    margin-left: 48px !important;
+    width:64% !important; 
+  }
+
+  .area{
+    margin-left: 76px;
+    width:64% !important; 
+  }
+
+  .city{
+    margin-left: 82px !important;
+  }
+
+  .fillhead{
+    margin-bottom: 60px !important;
+    margin-left: 30px;
+  }
+
+  .about{
+    display: none;
+  }
+
+  .mode{
+    padding-left: 0px !important;
+    padding-top: 15px !important;
+    width: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1185px){
+  .userdetailimg{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1185px){
+
+  Footer *{
+    font-size: 26px;
+  }
+  
+  .aboutres .intro p{
+    font-size: 29px !important;
+  }
+
+  .aboutres .col p{
+    font-size: 24px !important;
+  }
+
+  .login{
+    font-size: 28px;
+  }
+
+  .login-text h4{
+    font-size: 29px !important;
+  }
+
+  .login-text{
+    margin-left: 50px;
+  }
+
+  .register{
+    margin-right: 70px;
+  }
+  
+  .collapse li a{
+      font-size: 27px;
+  }
+
+  input{
+    font-size: 24px !important;
+  }
+
+  label{
+    font-size: 25px !important;
+  }
+}
