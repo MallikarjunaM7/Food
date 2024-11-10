@@ -10,7 +10,7 @@ export const AuthProvider = ({children}) => {
 
     const storeTokenInLS = (token) => {
         setToken(token)
-        localStorage.setItem("token", token)
+        localStorage.setItem("token", tok)
     }
 
     const backapi = "http://localhost:5000"
